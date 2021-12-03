@@ -190,10 +190,12 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 21px;
+    color: #fff ;
 }
 
 #current {
     text-align: right;
+    color: #fff;
 }
 
 .bar {
@@ -215,4 +217,14 @@ footer {
     background-color: white;
     transition: all 1s linear;
     height: 100%;
+}
+
+.music {
+    padding-top: 20px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
